@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Weather Now</title>
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+  <div class="wrap">
+   <header>
+  <div class="brand"><span class="dot"></span> WEATHER ORION</div>
+</header>
+
+<div class="center-box">
+  <form id="searchForm" autocomplete="off">
+    <input id="query" type="text" placeholder="Enter location (e.g., London or 37.77,-122.42)" required />
+    <button id="goBtn" type="submit">Get Weather</button>
+  </form>
+</div>
+
+
+    <div id="status" class="card loading">Type a location and press “Get Weather”.</div>
+    <div class="default-weather" id="defaultWeather"></div>
+
+    <section id="results" class="grid hide">
+        
+      <!-- Left: current summary -->
+      <div class="card" style="grid-column: span 7;">
+        <h3 id="locTitle">Location</h3>
+        <div class="big">
+          <img id="icon" alt="icon" width="72" height="72" />
+          <div>
+            <div class="temp"><span id="tempC">--</span>°C <span class="units muted">/ <span id="tempF">--</span>°F</span></div>
+            <div class="muted" id="condText">—</div>
+          </div>
+        </div>
+        <div class="row" style="margin-top:12px">
+          <span class="pill">Updated: <span id="updated">—</span></span>
+          <span class="pill">Local time: <span id="localtime">—</span></span>
+          <span class="pill">TZ: <span id="tz">—</span></span>
+          <span id="dayflag" class="pill">—</span>
+        </div>
+      </div>
+
+      <!-- Right: wind & pressure -->
+      <div class="card" style="grid-column: span 5;">
+        <h3>Wind & Pressure</h3>
+        <div class="two-col">
+          <div class="kvs">
+            <div class="kv"><b>Wind</b><span><span id="windKph">--</span> kph (<span id="windMph">--</span> mph)</span></div>
+            <div class="kv"><b>Direction</b>
+              <span>
+                <span id="windDir">—</span> (<span id="windDeg">--</span>°)
+                <span title="arrow" style="display:inline-block; margin-left:6px; transform: rotate(0deg);" id="arrow">➤</span>
+              </span>
+            </div>
+            <div class="kv"><b>Gust</b><span><span id="gustKph">--</span> kph (<span id="gustMph">--</span> mph)</span></div>
+            <div class="kv"><b>Pressure</b><span><span id="pressMb">--</span> mb (<span id="pressIn">--</span> in)</span></div>
+          </div>
+          <div class="kvs">
+            <div class="kv"><b>Visibility</b><span><span id="visKm">--</span> km (<span id="visMiles">--</span> mi)</span></div>
+            <div class="kv"><b>Cloud</b><span><span id="cloud">--</span>%</span></div>
+            <div class="kv"><b>UV Index</b><span id="uv" class="ok">--</span></div>
+            <div class="kv"><b>Precipitation</b><span><span id="precipMm">--</span> mm (<span id="precipIn">--</span> in)</span></div>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <!-- Feels-like & thermal -->
+      <div class="card" style="grid-column: span 6;">
+        <h3>Thermal Comfort</h3>
+        <div class="kvs">
+          <div class="kv"><b>Feels Like</b><span><span id="feelsC">--</span>°C / <span id="feelsF">--</span>°F</span></div>
+          <div class="kv"><b>Wind Chill</b><span><span id="chillC">--</span>°C / <span id="chillF">--</span>°F</span></div>
+          <div class="kv"><b>Heat Index</b><span><span id="heatC">--</span>°C / <span id="heatF">--</span>°F</span></div>
+          <div class="kv"><b>Dew Point</b><span><span id="dewC">--</span>°C / <span id="dewF">--</span>°F</span></div>
+          <div class="kv"><b>Humidity</b><span id="humidity">--</span></div>
+        </div>
+      </div>
+
+      <!-- Radiation -->
+      <div class="card" style="grid-column: span 6;">
+        <h3>Radiation (W/m²)</h3>
+        <table class="tbl">
+          <thead><tr><th>Shortwave</th><th>Diffuse</th><th>DNI</th><th>GTI</th></tr></thead>
+          <tbody><tr>
+            <td id="shortRad">--</td>
+            <td id="diffRad">--</td>
+            <td id="dni">--</td>
+            <td id="gti">--</td>
+          </tr></tbody>
+        </table>
+      </div>
+
+      <!-- Air Quality -->
+      <div class="card" style="grid-column: span 12;">
+        <h3>Air Quality</h3>
+        <div class="row" style="margin:4px 0 10px">
+          <span class="pill">US EPA Index: <b id="epaIdx">—</b></span>
+          <span class="pill">UK DEFRA Index: <b id="defraIdx">—</b></span>
+        </div>
+        <table class="tbl" id="aqTable">
+          <thead>
+            <tr>
+              <th>CO</th><th>NO₂</th><th>O₃</th><th>SO₂</th><th>PM2.5</th><th>PM10</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="co">--</td>
+              <td id="no2">--</td>
+              <td id="o3">--</td>
+              <td id="so2">--</td>
+              <td id="pm25">--</td>
+              <td id="pm10">--</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="muted" style="margin-top:8px">Units: CO/NO₂/O₃/SO₂ in μg/m³ (as provided), PM in μg/m³.</div>
+      </div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+
+  <footer>
+    <div class="wrap">
+      <div class="foot-links
+</body>
+</html>
