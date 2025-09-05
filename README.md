@@ -9,7 +9,7 @@ A simple and modern **Weather Web App** built with **HTML, CSS, and JavaScript**
 - **Responsive and lightweight** for fast performance
 
 
-### Live Demo
+### 🚀 Live Demo
 [Weather Orion](https://parthajit3080.github.io/Weather-Orion/)
 
 
@@ -24,7 +24,7 @@ Frontend: HTML, CSS, JavaScript
 
 API: WeatherAPI
 
-🔧 Setup & Usage
+### 🔧 Setup & Usage
 
 Clone this repository
 
@@ -39,14 +39,13 @@ Just open index.html in your browser.
 Replace the placeholder API_KEY in script.js with your own WeatherAPI key
 .
 
-📂 Project Structure
+### 📂 Project Structure
 ├── index.html       # Main HTML file
 ├── style.css        # CSS styling
 ├── script.js        # JavaScript logic
 ├── README.md        # Project documentation
 
-🙌 Acknowledgements
+### 🙌 Acknowledgements
 
-Weather data powered by WeatherAPI
-
-Inspired by simple & clean weather app designs
+- Weather data powered by WeatherAPI
+- Inspired by simple & clean weather app designs
