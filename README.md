@@ -24,14 +24,10 @@ A simple and modern **Weather Web App** built with **HTML, CSS, and JavaScript**
 - Clone this repository
 -- git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-
-
 - Open in browser
 -- Just open index.html in your browser.
-
 - Update API Key
--- Replace the placeholder API_KEY in script.js with your own WeatherAPI key
-.
+-- Replace the placeholder API_KEY in script.js with your own WeatherAPI key.
 
 ### 📂 Project Structure
 - ├── index.html       # Main HTML file
