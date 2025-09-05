@@ -38,6 +38,8 @@ cd your-repo-name
 - ├── style.css        # CSS styling
 - ├── script.js        # JavaScript logic
 - ├── README.md        # Project documentation
+- ├── Image1.jpg       # Screenshort 1 of the website
+- ├── Image2.jpg       # Screenshort 2 of the website
 
 ### 🙌 Acknowledgements
 
