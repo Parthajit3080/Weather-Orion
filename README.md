@@ -2,7 +2,7 @@
 
 A simple and modern **Weather Web App** built with **HTML, CSS, and JavaScript**, powered by the **[WeatherAPI](https://www.weatherapi.com/).**
 
-### Features
+### ✨ Features
 - Search weather by **city name** or **latitude/longitude**
 - View detailed data: **temperature, conditions, humidity, wind, pressure, UV index**, and more
 - See **default weather cards** for *Kolkata, New Delhi, and New York* on initial load
@@ -12,38 +12,32 @@ A simple and modern **Weather Web App** built with **HTML, CSS, and JavaScript**
 ### 🚀 Live Demo
 [Weather Orion](https://parthajit3080.github.io/Weather-Orion/)
 
-
-
-### 📸 Screenshots
-
 [![Weather App Screenshot](Image1.jpg)](https://parthajit3080.github.io/Weather-Orion/)
 
-🛠️ Tech Stack
+###🛠️ Tech Stack
 
-Frontend: HTML, CSS, JavaScript
-
-API: WeatherAPI
+- Frontend: HTML, CSS, JavaScript
+- API: WeatherAPI
 
 ### 🔧 Setup & Usage
 
-Clone this repository
-
-git clone https://github.com/your-username/your-repo-name.git
+- Clone this repository
+-- git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 
 
-Open in browser
-Just open index.html in your browser.
+- Open in browser
+-- Just open index.html in your browser.
 
-(Optional) Update API Key
-Replace the placeholder API_KEY in script.js with your own WeatherAPI key
+- Update API Key
+--Replace the placeholder API_KEY in script.js with your own WeatherAPI key
 .
 
 ### 📂 Project Structure
-├── index.html       # Main HTML file
-├── style.css        # CSS styling
-├── script.js        # JavaScript logic
-├── README.md        # Project documentation
+- ├── index.html       # Main HTML file
+- ├── style.css        # CSS styling
+- ├── script.js        # JavaScript logic
+- ├── README.md        # Project documentation
 
 ### 🙌 Acknowledgements
 
