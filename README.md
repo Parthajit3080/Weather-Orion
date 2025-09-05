@@ -13,6 +13,7 @@ A simple and modern **Weather Web App** built with **HTML, CSS, and JavaScript**
 [Weather Orion](https://parthajit3080.github.io/Weather-Orion/)
 
 [![Weather App Screenshot](Image1.jpg)](https://parthajit3080.github.io/Weather-Orion/)
+[![Weather App Screenshot](Image2.jpg)](https://parthajit3080.github.io/Weather-Orion/)
 
 ### 🛠️ Tech Stack
 
