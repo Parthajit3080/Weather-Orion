@@ -14,7 +14,7 @@ A simple and modern **Weather Web App** built with **HTML, CSS, and JavaScript**
 
 [![Weather App Screenshot](Image1.jpg)](https://parthajit3080.github.io/Weather-Orion/)
 
-###🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 - Frontend: HTML, CSS, JavaScript
 - API: WeatherAPI
@@ -30,7 +30,7 @@ cd your-repo-name
 -- Just open index.html in your browser.
 
 - Update API Key
---Replace the placeholder API_KEY in script.js with your own WeatherAPI key
+-- Replace the placeholder API_KEY in script.js with your own WeatherAPI key
 .
 
 ### 📂 Project Structure
