@@ -1,6 +1,6 @@
 # Weather-Orion
 
-A simple and modern **Weather Web App** built with **HTML, CSS, and JavaScript**, powered by the **[WeatherAPI](https://www.weatherapi.com/).**.  
+A simple and modern **Weather Web App** built with **HTML, CSS, and JavaScript**, powered by the **[WeatherAPI](https://www.weatherapi.com/).**
 
 ### Features
 - Search weather by **city name** or **latitude/longitude**
@@ -9,9 +9,8 @@ A simple and modern **Weather Web App** built with **HTML, CSS, and JavaScript**
 - **Responsive and lightweight** for fast performance
 
 
-🚀 Live Demo
-
-👉 Click here to view the app
+###🚀 Live Demo
+[Weather Orion](https://parthajit3080.github.io/Weather-Orion/)
 
 ✨ Features
 
