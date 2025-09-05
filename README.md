@@ -1,16 +1,13 @@
 # Weather-Orion
 
-A simple and modern weather web app built with HTML, CSS, and JavaScript, powered by the WeatherAPI.
+A simple and modern **Weather Web App** built with **HTML, CSS, and JavaScript**, powered by the **WeatherAPI**.  
 
-The app allows users to:
+### Features
+- Search weather by **city name** or **latitude/longitude**
+- View detailed data: **temperature, conditions, humidity, wind, pressure, UV index**, and more
+- See **default weather cards** for *Kolkata, New Delhi, and New York* on initial load
+- **Responsive and lightweight** for fast performance
 
--Search weather by city name or latitude/longitude
-
--View temperature, conditions, humidity, wind, pressure, UV index, and more
-
--See default weather cards for Kolkata, Delhi, and New York on load
-
--Responsive and lightweight for fast performance
 
 🚀 Live Demo
 
