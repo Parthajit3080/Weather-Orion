@@ -9,26 +9,14 @@ A simple and modern **Weather Web App** built with **HTML, CSS, and JavaScript**
 - **Responsive and lightweight** for fast performance
 
 
-###🚀 Live Demo
+### Live Demo
 [Weather Orion](https://parthajit3080.github.io/Weather-Orion/)
 
-✨ Features
 
-🌍 Search weather by city name or coordinates
-
-🏙️ Default weather shown for Kolkata, Delhi, and New York
-
-📊 Detailed information: temperature, feels like, humidity, wind, air quality
-
-☀️ Day/Night indicator with color changes
-
-📱 Mobile-friendly responsive UI
-
-⚡ Uses WeatherAPI for real-time data
 
 📸 Screenshots
 
-(Add screenshots of your deployed app here, e.g. homepage + searched result)
+[![Weather App Screenshot](Image1.jpg)](https://parthajit3080.github.io/Weather-Orion/)
 
 🛠️ Tech Stack
 
